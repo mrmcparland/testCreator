@@ -1,0 +1,16 @@
+C:\Users\mrmcp\source\repos\testCreator\bin\Debug\testCreator.exe.config
+C:\Users\mrmcp\source\repos\testCreator\bin\Debug\testCreator.exe
+C:\Users\mrmcp\source\repos\testCreator\bin\Debug\testCreator.pdb
+C:\Users\mrmcp\source\repos\testCreator\obj\Debug\testCreator.csprojAssemblyReference.cache
+C:\Users\mrmcp\source\repos\testCreator\obj\Debug\testCreator.Properties.Resources.resources
+C:\Users\mrmcp\source\repos\testCreator\obj\Debug\testCreator.csproj.GenerateResource.cache
+C:\Users\mrmcp\source\repos\testCreator\obj\Debug\testCreator.csproj.CoreCompileInputs.cache
+C:\Users\mrmcp\source\repos\testCreator\obj\Debug\testCreator.exe
+C:\Users\mrmcp\source\repos\testCreator\obj\Debug\testCreator.pdb
+C:\Users\mrmcp\source\repos\testCreator\obj\Debug\testCreator.createInstructions.resources
+C:\Users\mrmcp\source\repos\testCreator\obj\Debug\testCreator.createTest.resources
+C:\Users\mrmcp\source\repos\testCreator\obj\Debug\testCreator.mainMenu.resources
+C:\Users\mrmcp\source\repos\testCreator\obj\Debug\testCreator.testNameDesc.resources
+C:\Users\mrmcp\source\repos\testCreator\obj\Debug\testCreator.editTestSelect.resources
+C:\Users\mrmcp\source\repos\testCreator\obj\Debug\testCreator.takeTest.resources
+C:\Users\mrmcp\source\repos\testCreator\obj\Debug\testCreator.testForm.resources
