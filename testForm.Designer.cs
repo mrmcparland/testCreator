@@ -45,6 +45,7 @@
             this.first_item_btn = new System.Windows.Forms.Button();
             this.question_lbl = new System.Windows.Forms.Label();
             this.lblTestName = new System.Windows.Forms.Label();
+            this.submit_btn = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -221,7 +222,7 @@
             // prev_item_btn
             // 
             this.prev_item_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prev_item_btn.Location = new System.Drawing.Point(455, 22);
+            this.prev_item_btn.Location = new System.Drawing.Point(279, 22);
             this.prev_item_btn.Name = "prev_item_btn";
             this.prev_item_btn.Size = new System.Drawing.Size(83, 42);
             this.prev_item_btn.TabIndex = 1;
@@ -232,7 +233,7 @@
             // next_item_btn
             // 
             this.next_item_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.next_item_btn.Location = new System.Drawing.Point(716, 22);
+            this.next_item_btn.Location = new System.Drawing.Point(540, 22);
             this.next_item_btn.Name = "next_item_btn";
             this.next_item_btn.Size = new System.Drawing.Size(86, 42);
             this.next_item_btn.TabIndex = 2;
@@ -243,7 +244,7 @@
             // last_item_btn
             // 
             this.last_item_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.last_item_btn.Location = new System.Drawing.Point(823, 22);
+            this.last_item_btn.Location = new System.Drawing.Point(647, 22);
             this.last_item_btn.Name = "last_item_btn";
             this.last_item_btn.Size = new System.Drawing.Size(76, 42);
             this.last_item_btn.TabIndex = 3;
@@ -254,7 +255,7 @@
             // first_item_btn
             // 
             this.first_item_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.first_item_btn.Location = new System.Drawing.Point(325, 22);
+            this.first_item_btn.Location = new System.Drawing.Point(149, 22);
             this.first_item_btn.Name = "first_item_btn";
             this.first_item_btn.Size = new System.Drawing.Size(95, 42);
             this.first_item_btn.TabIndex = 4;
@@ -266,7 +267,7 @@
             // 
             this.question_lbl.AutoSize = true;
             this.question_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.question_lbl.Location = new System.Drawing.Point(580, 40);
+            this.question_lbl.Location = new System.Drawing.Point(404, 40);
             this.question_lbl.Name = "question_lbl";
             this.question_lbl.Size = new System.Drawing.Size(66, 24);
             this.question_lbl.TabIndex = 5;
@@ -282,11 +283,23 @@
             this.lblTestName.TabIndex = 7;
             this.lblTestName.Text = "label1";
             // 
+            // submit_btn
+            // 
+            this.submit_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submit_btn.Location = new System.Drawing.Point(774, 22);
+            this.submit_btn.Name = "submit_btn";
+            this.submit_btn.Size = new System.Drawing.Size(108, 42);
+            this.submit_btn.TabIndex = 8;
+            this.submit_btn.Text = "Submit";
+            this.submit_btn.UseVisualStyleBackColor = true;
+            this.submit_btn.Click += new System.EventHandler(this.submit_btn_Click);
+            // 
             // testForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(945, 450);
+            this.Controls.Add(this.submit_btn);
             this.Controls.Add(this.lblTestName);
             this.Controls.Add(this.question_lbl);
             this.Controls.Add(this.first_item_btn);
@@ -323,5 +336,6 @@
         private System.Windows.Forms.Button first_item_btn;
         private System.Windows.Forms.Label question_lbl;
         private System.Windows.Forms.Label lblTestName;
+        private System.Windows.Forms.Button submit_btn;
     }
 }

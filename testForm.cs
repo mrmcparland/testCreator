@@ -52,7 +52,7 @@ namespace testCreator
             //assign questions to stemList
             Array.Resize<question>(ref myBank.qb, arrayCount);
             max_index = myDT.Rows.Count;
-            MessageBox.Show("Max index is " + max_index );
+            //MessageBox.Show("Max index is " + max_index );
 
             //int i = 0;
             foreach (DataRow myRow in myDT.Rows)
@@ -252,6 +252,19 @@ namespace testCreator
             record_previous_answer();
             current_item_index = min_index;
             paint_the_screen();
+        }
+
+        private void submit_btn_Click(object sender, EventArgs e)
+        {
+            foreach(question q in myBank.qb)
+            {
+                if(q.chosenAnswer == null)
+                {
+                    MessageBox.Show("Not all questions have been answered." +
+                        "Please select an answer for each question");
+                    return;
+                }    
+            }
         }
     }
 }
